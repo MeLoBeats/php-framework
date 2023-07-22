@@ -1,0 +1,25 @@
+{
+  "name": "melo/framework",
+  "description": "Light PHP Framework",
+  "license": "UNLICENSED",
+  "authors": [
+    {
+      "name": "MeLoBeats",
+      "email": "lamelobeats@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/",
+      "Controllers\\": "controllers/",
+      "Database\\": "database/",
+      "Model\\": "model/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "eftec/bladeone": "dev-master",
+    "felippe-regazio/php-hot-reloader": "dev-master",
+    "illuminate/database": "10.x-dev"
+  }
+}
